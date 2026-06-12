@@ -1,4 +1,5 @@
-Dataset MNIST prosty model
+# Dataset MNIST prosty model
+
 ```text
 === PODSUMOWANIE: WYDAJNOŚĆ I ROZMIAR ===
 +----------------------------+--------------------+---------------------+-----------+-------------------+
