@@ -1,6 +1,6 @@
-# Optymalizacja sieci MLP: FP32 vs Fixed-Point (PTQ i QAT)
+# Optymalizacja sieci MLP oraz CNN : FP32 vs Fixed-Point (PTQ i QAT)
 
-Projekt badawczy demonstrujący wpływ kwantyzacji sieci neuronowej (Multi-Layer Perceptron) na jej rozmiar, czas inferencji oraz dokładność klasyfikacji na zbiorze MNIST. W projekcie porównujemy trzy podejścia:
+Projekt badawczy demonstrujący wpływ kwantyzacji sieci neuronowej (Multi-Layer Perceptron oraz CNN) na jej rozmiar, czas inferencji oraz dokładność klasyfikacji na zbiorze MNIST oraz cifar10. W projekcie porównujemy trzy podejścia:
 1. **Model bazowy (Float32)** - standardowa precyzja zmiennoprzecinkowa.
 2. **PTQ (Post-Training Quantization)** - kwantyzacja do 8-bitowej arytmetyki (INT8) po zakończeniu trenowania.
 3. **QAT (Quantization-Aware Training)** - trenowanie modelu ze świadomością kwantyzacji (symulacja błędów obcięcia ułamków), a następnie konwersja do INT8.
