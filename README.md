@@ -5,6 +5,8 @@ Projekt badawczy demonstrujący wpływ kwantyzacji sieci neuronowej (Multi-Layer
 2. **PTQ (Post-Training Quantization)** - kwantyzacja do 8-bitowej arytmetyki (INT8) po zakończeniu trenowania.
 3. **QAT (Quantization-Aware Training)** - trenowanie modelu ze świadomością kwantyzacji (symulacja błędów obcięcia ułamków), a następnie konwersja do INT8.
 
+Raport z doświadczenia został zapisany w pliku raport.md
+
 ## Wymagania
 
 Jeśli nie masz zainstalowanego `uv`, zainstaluj go:
@@ -17,3 +19,4 @@ Jeśli nie masz zainstalowanego `uv`, zainstaluj go:
    git clone https://github.com/KamilKr1355/mlp-fixed-point
    cd mlp-fixed-point
    uv sync
+
